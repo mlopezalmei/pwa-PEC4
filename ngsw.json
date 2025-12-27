@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1766839644810,
+  "timestamp": 1766839888148,
   "index": "pwa-PEC4/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "pwa-PEC4/favicon.ico",
         "pwa-PEC4/index.html",
-        "pwa-PEC4/main-BUQAJVZO.js",
+        "pwa-PEC4/main-BTWOVY5Z.js",
         "pwa-PEC4/manifest.webmanifest",
         "pwa-PEC4/polyfills-B6TNHZQ6.js",
         "pwa-PEC4/styles-XJKSHBXC.css"
@@ -66,8 +66,8 @@
     "pwa-PEC4/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "pwa-PEC4/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "pwa-PEC4/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "pwa-PEC4/index.html": "259cdd5f1db03d5428e47a14ffa91daa62d266c2",
-    "pwa-PEC4/main-BUQAJVZO.js": "c395a76df2e824f0beed6b9ec821f129b418c2d0",
+    "pwa-PEC4/index.html": "b4b802a4321477294ded61845bfd50c96dc734d8",
+    "pwa-PEC4/main-BTWOVY5Z.js": "b9b760ae69800f6ae6fd8ef3dac53ec355068855",
     "pwa-PEC4/manifest.webmanifest": "84920e70205ad9fe6c14e81e6246769adb02ee1d",
     "pwa-PEC4/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
     "pwa-PEC4/styles-XJKSHBXC.css": "b2748179fd5e61fe60ff546278701af3d4391ec0"
