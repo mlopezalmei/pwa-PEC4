@@ -8,8 +8,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root',
 })
 export class GamesService {
-  private api = 'https://cors-anywhere.herokuapp.com/https://www.freetogame.com/api';
-;
+  private api = environment.apiUrl;
 
   constructor(private http: HttpClient) {}
 
