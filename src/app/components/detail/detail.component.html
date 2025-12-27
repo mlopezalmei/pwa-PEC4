@@ -1,0 +1,31 @@
+@if (game) {
+
+<div class="detail-container">
+  <div class="header">
+    <h1>{{ game.title }}</h1>
+    <button mat-icon-button (click)="back()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  </div>
+
+  <img [src]="game.thumbnail" [alt]="game.title" />
+
+  <button mat-raised-button color="primary" (click)="toggleDetails()">
+    {{ showDetails ? "Hide details" : "Show all details" }}
+  </button>
+
+  @if (showDetails) {
+  <div class="details">
+    <p><strong>Género:</strong> {{ game.genre }}</p>
+    <p><strong>Plataforma:</strong> {{ game.platform }}</p>
+    <p><strong>Publisher:</strong> {{ game.publisher }}</p>
+    <p><strong>Developer:</strong> {{ game.developer }}</p>
+    <p><strong>Release Date:</strong> {{ game.release_date }}</p>
+    <p><strong>Progreso (inventado):</strong></p>
+    <mat-progress-bar mode="determinate" [value]="game.progress">
+    </mat-progress-bar>
+  </div>
+  }
+</div>
+
+}

@@ -1,0 +1,40 @@
+.detail-container {
+  padding: 10px 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  button {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.details {
+  margin-top: 20px;
+
+  p {
+    margin: 8px 0;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,23 @@
+<div class="home-container">
+  <div class="toolbar">
+    <button mat-icon-button (click)="viewMode = 'cards'">
+      <mat-icon>view_module</mat-icon>
+    </button>
+    <button mat-icon-button (click)="viewMode = 'table'">
+      <mat-icon>table_chart</mat-icon>
+    </button>
+  </div>
+
+  @if (loading) {
+  <mat-spinner></mat-spinner>
+  } @if (!loading) { @if (viewMode === 'cards') {
+  <div class="cards">
+    @for (game of games; track game.id) {
+    <app-game-card [game]="game" (click)="goToDetail(game.id)"> </app-game-card>
+    }
+  </div>
+  } @if (viewMode === 'table') {
+  <app-game-grid [games]="games" (rowClick)="goToDetail($event)">
+  </app-game-grid>
+  } }
+</div>

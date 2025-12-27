@@ -1,0 +1,24 @@
+.home-container {
+  padding: 10px 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+mat-spinner {
+  display: block;
+  margin: 100px auto;
+}
