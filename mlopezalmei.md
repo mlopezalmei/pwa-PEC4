@@ -1,1 +1,3 @@
+- No utilicé señales para crear las variables `games` y `games`.
+- Tuve que crear un proxy para que funcionase la API en local.
 - Hice el despliegue en Github Pages con esta url: `https://mlopezalmei.github.io/pwa-PEC4/pwa-PEC4/` pero no me funcionaba la llamada a la API de videojuegos. Esta es la url del repositorio: `https://github.com/mlopezalmei/pwa-PEC4`.
